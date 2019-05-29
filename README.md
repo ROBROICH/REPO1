@@ -2,10 +2,10 @@
 
 Earlier this year [Microsoft and SAP announced an extended partnership to Internet of Things](https://azure.microsoft.com/en-us/blog/microsoft-and-sap-extend-partnership-to-internet-of-things/)
 
-In parallel to this announcement basic integration scenarios between Azure IoT and SAP are already possible. 
-The intention of this demo is to demonstrate the Lego-like integration between Azure IoT and SAP ECC based on SAP Gateway. 
+In parallel to this announcement basic demo scenarios leveraging Azure IoT and a public demo SAP are already possible. 
 
-The idea is to have a public repeatable setup of the demo based on :
+The intention is to have a public repeatable setup of the demo based on :
+
 -Public Azure Raspberry emulator
 
 -Public SAP demo system 
@@ -16,13 +16,15 @@ Summarized this demo is a basic extension of an existing Azure IoT tutorial to d
 
 ## Demo scenario and basic storyline 
 
--Imagine the Raspberry Emulator as a IoT device used in shipping of heat-sensitive vaccines
+-Imagine the Raspberry Emulator as IoT device used in shipping of heat-sensitive vaccines
 
 -If the temperature is measured above 30°, the vaccine is damaged and must be replaced  
 
 -To replace the vaccine, a sales order is automatically created in SAP ECC in case the measured temperature is above 30° 
 
 -For excel users the current sales order SAP ECC will be displayed in Excel 
+
+![Screenshot](DEMO_ARCHITECTURE.jpg)
 
 image:: https://github.com/ROBROICH/REPO1/blob/master/images/DEMO_ARCHITECTURE.jpg
   :height: 1500px
