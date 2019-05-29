@@ -7,7 +7,9 @@ The intention of this demo is to demonstrate the Lego-like integration between A
 
 The idea is to have a public repeatable setup of the demo based on :
 -Public Azure Raspberry emulator
+
 -Public SAP demo system 
+
 -Azure IoT Hub and Logic App
 
 Summarized this demo is a basic extension of an existing Azure IoT tutorial to demonstrate SAP connectivity
@@ -21,6 +23,12 @@ Summarized this demo is a basic extension of an existing Azure IoT tutorial to d
 -To replace the vaccine, a sales order is automatically created in SAP ECC in case the measured temperature is above 30° 
 
 -For excel users the current sales order SAP ECC will be displayed in Excel 
+
+image:: https://github.com/ROBROICH/REPO1/blob/master/images/DEMO_ARCHITECTURE.jpg
+  :height: 1500px
+  :width: 400 px
+  :scale: 50 %
+  
 
 
 ## Demo preparation: Raspberry PI emulator and IoT Hub
